@@ -20,6 +20,6 @@ class String
     counter_array.push(self.split("?"))
     counter_array.push(self.split("!"))
     binding.pry
-    return self.count
+    return counter_array.length
   end
 end
