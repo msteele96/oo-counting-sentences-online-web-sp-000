@@ -18,6 +18,7 @@ class String
     self.split(".")
     self.split("?")
     self.split("!")
+    binding.pry
     return self.count
   end
 end
